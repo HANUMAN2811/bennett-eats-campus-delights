@@ -1,4 +1,3 @@
-
 export interface FoodItem {
   id: string;
   name: string;
@@ -29,7 +28,7 @@ export const outlets: Outlet[] = [
   {
     id: "kathi",
     name: "Kathi Junction",
-    image: "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDd8fGluZGlhbiUyMGZvb2R8ZW58MHx8fHwxNzE4NjEwMDY5fDA&ixlib=rb-4.0.3&w=600",
+    image: "https://images.unsplash.com/photo-1625937288614-45f53fd4dc0f?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDZ8fGluZGlhbiUyMHN0cmVldCUyMGZvb2R8ZW58MHx8fHwxNzE4NjA5OTk3fDA&ixlib=rb-4.0.3&w=600",
     rating: 4.5,
     deliveryTime: "15-20 mins",
     description: "Delicious rolls and wraps made with fresh ingredients"
@@ -37,7 +36,7 @@ export const outlets: Outlet[] = [
   {
     id: "southern",
     name: "Southern Stories",
-    image: "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fHNvdXRoJTIwaW5kaWFuJTIwZm9vZHxlbnwwfHx8fDE3MTg2MTAwOTl8MA&ixlib=rb-4.0.3&w=600",
+    image: "https://images.unsplash.com/photo-1578936579851-g4a29c34fb44?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fHNvdXRoJTIwaW5kaWFuJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3MTg2MDk5OTd8MA&ixlib=rb-4.0.3&w=600",
     rating: 4.2,
     deliveryTime: "20-25 mins",
     description: "Authentic South Indian meals and snacks"
@@ -45,7 +44,7 @@ export const outlets: Outlet[] = [
   {
     id: "maggi",
     name: "Maggi Point",
-    image: "https://images.unsplash.com/photo-1585634917202-6f03b28fc6d0?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEzfHxub29kbGVzfGVufDB8fHx8MTcxODYxMDExOHww&ixlib=rb-4.0.3&w=600",
+    image: "https://images.unsplash.com/photo-1600891964599-ee5a7a4467c0?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fGZvb2QlMjBjYXJ0fGVufDB8fHx8MTcxODYwOTk5N3ww&ixlib=rb-4.0.3&w=600",
     rating: 4.0,
     deliveryTime: "10-15 mins",
     description: "Quick and tasty Maggi noodles with various toppings"
@@ -59,7 +58,7 @@ export const foodItems: FoodItem[] = [
     name: "Chicken Kathi Roll",
     price: 120,
     description: "Flavorful chicken wrapped in a paratha with fresh veggies and sauces",
-    image: "https://images.unsplash.com/photo-1678623581587-9a35f40bd77c?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDR8fGNoaWNrZW4lMjByb2xsfGVufDB8fHx8MTcxODYxMDI1MXww&ixlib=rb-4.0.3&w=600",
+    image: "https://images.unsplash.com/photo-1599059177282-f7debc6b517a?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDR8fGNoaWNrZW4lMjByb2xsfGVufDB8fHx8MTcxODYxMDI1MXww&ixlib=rb-4.0.3&w=600",
     rating: 4.7,
     veg: false,
     outletId: "kathi",
@@ -70,7 +69,7 @@ export const foodItems: FoodItem[] = [
     name: "Paneer Kathi Roll",
     price: 110,
     description: "Delicious paneer tikka wrapped in a flaky paratha with mint chutney",
-    image: "https://images.unsplash.com/photo-1567337710282-00832b415979?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fHBhbmVlciUyMHdyYXB8ZW58MHx8fHwxNzE4NjEwMjQwfDA&ixlib=rb-4.0.3&w=600",
+    image: "https://images.unsplash.com/photo-1595475207225-428b62bda831?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDN8fHBhbmVlciUyMHdyYXB8ZW58MHx8fHwxNzE4NjEwMjQwfDA&ixlib=rb-4.0.3&w=600",
     rating: 4.5,
     veg: true,
     outletId: "kathi"
